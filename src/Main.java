@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Задача-3");
         int year = 2024;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-            System.out.println("Год " + year + " высокосный");// надеюсь не будет считаться за ошибку в слове, очень не люблю это слово которое ввели римляне)))
+            System.out.println("Год " + year + " высокосный");
         } else {
             System.out.println("Год " + year + " не является высокосным");
         }
